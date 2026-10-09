@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>保险选题库 · 导航</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+    background: linear-gradient(135deg, #f5f7fa 0%, #e8ecf3 100%);
+    min-height: 100vh;
+    color: #2c3e50;
+    padding: 40px 20px;
+  }
+  .container {
+    max-width: 1100px;
+    margin: 0 auto;
+  }
+  header {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  header h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #1a3a5c;
+    margin-bottom: 10px;
+  }
+  header p {
+    color: #7a8a99;
+    font-size: 15px;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 24px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+    border-left: 4px solid #2c7be5;
+    transition: all 0.2s ease;
+    display: block;
+  }
+  .card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(44,123,229,0.15);
+    border-left-color: #1a5fb4;
+  }
+  .card-icon {
+    font-size: 28px;
+    margin-bottom: 12px;
+    display: block;
+  }
+  .card-title {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1a3a5c;
+    margin-bottom: 8px;
+  }
+  .card-desc {
+    font-size: 13px;
+    color: #7a8a99;
+    line-height: 1.6;
+  }
+  .card-arrow {
+    margin-top: 14px;
+    font-size: 13px;
+    color: #2c7be5;
+    font-weight: 500;
+  }
+  footer {
+    text-align: center;
+    margin-top: 50px;
+    color: #a0aab5;
+    font-size: 13px;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+  <header>
+    <h1>📚 保险选题库</h1>
+    <p>点击下方任意分类进入对应选题目录</p>
+  </header>
+
+  <div class="grid">
+    <a class="card" href="01-医疗保险/index.html">
+      <span class="card-icon">🏥</span>
+      <div class="card-title">医疗保险</div>
+      <div class="card-desc">百万医疗、中高端医疗、防癌医疗等医疗费用补偿类产品</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="02-医疗意外保险/index.html">
+      <span class="card-icon">⚕️</span>
+      <div class="card-title">医疗意外保险</div>
+      <div class="card-desc">手术意外、住院医疗意外等针对医疗过程风险的产品</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="03-定期寿险/index.html">
+      <span class="card-icon">📋</span>
+      <div class="card-title">定期寿险</div>
+      <div class="card-desc">固定期限内的身故/全残保障，含普通定寿与减额定寿</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="04-护理保险/index.html">
+      <span class="card-icon">🩺</span>
+      <div class="card-title">护理保险</div>
+      <div class="card-desc">长期护理、重疾护理等失能护理保障类产品</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="05-年金保险/index.html">
+      <span class="card-icon">💰</span>
+      <div class="card-title">年金保险</div>
+      <div class="card-desc">养老年金、教育年金、快返年金等长期领取类产品</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="06-意外险/index.html">
+      <span class="card-icon">🛡️</span>
+      <div class="card-title">意外险</div>
+      <div class="card-desc">综合意外、交通意外、旅行意外等意外伤害类产品</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+
+    <a class="card" href="07-终身寿险/index.html">
+      <span class="card-icon">🏛️</span>
+      <div class="card-title">终身寿险</div>
+      <div class="card-desc">普通终身寿、增额终身寿、万能终身寿等终身保障类</div>
+      <div class="card-arrow">进入分类 →</div>
+    </a>
+  </div>
+
+  <footer>
+    保险选题库 · 群内伙伴共享 · 内容持续更新中
+  </footer>
+</div>
+</body>
+</html>
